@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #0d1218;
+  width: 90%;
+  margin: auto;
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+hr {
+  margin: 10px;
+  border-bottom: 3px solid #ffffff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* css intestazione */
+.intestazione{
+  height: 80px;
+  line-height: 80px;
+}
+
+.img-intestazione {
+  width: 70px;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.titolo-intestazione {
+  display: inline;
+  color: #ffffff;
+  font-size: 34px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+/* css box ricerca e notifiche */
+
+.box-ricerca {
+  padding: 15px 10px 15px 0px;
+}
+
+.notifica-email {
+  color: #ffffff;
+  padding: 5px;
+}
+
+/* css box email */
+
+.box-email {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  background-color: grey;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.box-email-attiva {
+  background-color: white;
+}
+
+.box-email-seconda {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+.testo-email {
+  display: inline;
+}
+
+.colore-testo-email {
+  color: #c3c3c3;
+}
+#box-ricerca-testo {
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#box-ricerca-invio {
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: grey;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#notifica-email-numero {
+  display:inline-block;
+  background-color: orange;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+/* css footer */
+
+.footer {
+  color: white;
+  text-align: center;
+  font-size: 32px;
+}
+
+#testo-footer {
+  font-style: italic;
+  font-size: 15px;
+}
